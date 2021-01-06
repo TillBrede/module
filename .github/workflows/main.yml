@@ -34,4 +34,4 @@ jobs:
       - name: Run tests 
         uses: TillBrede/action-test@main
         with:
-          phpunit-version: '9.2.6'
+          phpunit-version: '-9.2.6'
