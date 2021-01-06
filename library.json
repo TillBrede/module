@@ -1,0 +1,12 @@
+{
+    "id": "{5D9E158D-9FC8-12BE-158E-37DAC061D4D2}",
+    "name": "Module",
+    "author": "Author",
+    "url": "https://example.com",
+    "compatibility": {
+        "version": "5.4"
+    },
+    "version": "1.0",
+    "build": 0,
+    "date": 0
+}

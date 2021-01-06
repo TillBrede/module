@@ -1,0 +1,12 @@
+{
+    "id": "{4DCA02E4-9620-1DE9-E924-7AFC0D1C6278}",
+    "name": "Module",
+    "type": 3,
+    "vendor": "",
+    "aliases": [],
+    "parentRequirements": [],
+    "childRequirements": [],
+    "implemented": [],
+    "prefix": "M",
+    "url": "https://example.com"
+}
