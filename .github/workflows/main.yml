@@ -13,9 +13,10 @@ jobs:
   tests:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout submodule
       - uses: actions/checkout@master
         with:
           submodules: true
 
-      - name: Run Tests
+      - name: Run tests
         uses: TillBrede/action-test@main
