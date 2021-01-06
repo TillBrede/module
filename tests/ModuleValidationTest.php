@@ -11,5 +11,6 @@ class AnwesenheitsSimulationValidationTest extends TestCaseSymconValidation
     public function testValidateModule(): void
     {
         $this->validateModule(__DIR__ . '/../Module');
+        $this->assertFalse(true);
     }
 }
