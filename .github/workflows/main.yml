@@ -32,6 +32,6 @@ jobs:
         with:
           php-version: '7.3' #This version is currently used by Symcon | In later versions the tested wddx function is removed
       - name: Run tests 
-        uses: symcon/action-tests@master
+        uses: TillBrede/action-test@main
         with:
           phpunit-version: '9.2.6'
