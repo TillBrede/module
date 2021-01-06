@@ -26,4 +26,4 @@ jobs:
         with:
           submodules: true
 
-      - uses: TillBrede/action@master
+      - uses: TillBrede/action@main
