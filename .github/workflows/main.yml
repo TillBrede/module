@@ -18,3 +18,5 @@ jobs:
           submodules: true
 
       - uses: TillBrede/action-test@main
+        with:
+          php-version: 7.5
