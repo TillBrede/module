@@ -17,4 +17,5 @@ jobs:
         with:
           submodules: true
 
-      - uses: TillBrede/action-test@main
+      - name: Run Tests
+        uses: TillBrede/action-test@main
