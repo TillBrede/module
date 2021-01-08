@@ -18,7 +18,7 @@ jobs:
         with:
           submodules: true
       - name: Run tests 
-        uses: TillBrede/action-tests@main
+        uses: TillBrede/action-test@main
 
   test-legacy:
     runs-on: ubuntu-latest
