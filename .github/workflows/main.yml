@@ -18,7 +18,7 @@ jobs:
         with:
           submodules: true
       - name: Run tests 
-        uses: TillBrede/action-test@main
+        uses: symcon/action-tests@master
 
   test-legacy:
     runs-on: ubuntu-latest
@@ -32,6 +32,6 @@ jobs:
         with:
           php-version: '7.3' #This version is currently used by Symcon | In later versions the tested wddx function is removed
       - name: Run tests 
-        uses: TillBrede/action-test@main
+        uses: symcon/action-tests@master
         with:
           phpunit-version: '9.2.6'
